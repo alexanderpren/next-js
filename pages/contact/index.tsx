@@ -1,8 +1,7 @@
 import Link from "next/link"
+import { MainLayout } from "../../components/layouts/MainLayout"
 
-import { MainLayout } from "../components/layouts/MainLayout"
-
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <MainLayout>
       <h1 className="title">
